@@ -1,0 +1,531 @@
+*PPD-Adobe:             "4.3"
+*%
+*% Create By Caissa 2024/08/13 11:09
+*%
+*FormatVersion:         "4.3"
+*FileVersion:           "1.0.4"
+*LanguageVersion:       English
+*LanguageEncoding:      ISOLatin1
+*PCFileName:            "RW403B.ppd"
+*Manufacturer:          "Munbyn"
+*Product:               "(RW403B)"
+*ModelName:             "RW403B"
+*NickName:              "RW403B"
+*ShortNickName:         "RW403B"
+*1284DeviceID:          "MFG:Munbyn;CMD:XPP,XL;MDL:RW403B;CLS:PRINTER"
+*cupsVersion:           1.2
+*cupsManualCopies:      False
+*cupsFilter:            "application/vnd.cups-raster 0 rastertorw403b"
+*PSVersion:             "(3010.000) 550"
+*PSVersion:             "(3010.000) 651"
+*PSVersion:             "(3010.000) 652"
+*PSVersion:             "(3010.000) 653"
+*PSVersion:             "(3010.000) 704"
+*PSVersion:             "(3010.000) 705"
+*PSVersion:             "(3010.000) 800"
+*LanguageLevel:         "3"
+*ColorDevice:           False
+*DefaultColorSpace:     Gray
+*FileSystem:            False
+*Throughput:            "1"
+*LandscapeOrientation:  Plus90
+*VariablePaperSize:     True
+*TTRasterizer:          Type42
+*cupsLanguages:         "en zh_CN zh_TW"
+
+
+*MaxMediaWidth:         "306.14"
+*MaxMediaHeight:        "6480"
+*HWMargins:             0.00 0.00 0.00 0.00
+*CustomPageSize True:   "pop pop pop <</PageSize[5 -2 roll]/ImagingBBox null>>setpagedevice"
+*ParamCustomPageSize    Width:          1 points 14.17 306.14
+*ParamCustomPageSize    Height:         2 points 14.17 6480
+*ParamCustomPageSize    WidthOffset:    3 points 0 0
+*ParamCustomPageSize    HeightOffset:   4 points 0 0
+*ParamCustomPageSize    Orientation:    5 int 0 0
+*RequiresPageRegion     All:            True
+
+*OpenUI *PageSize/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageSize
+*DefaultPageSize: w288h432
+*PageSize w114h85/1.60x1.20": "<</PageSize[114 85]/ImagingBBox null>>setpagedevice"
+*PageSize w142h85/1.96x1.20": "<</PageSize[142 85]/ImagingBBox null>>setpagedevice"
+*PageSize w142h142/1.96x1.96": "<</PageSize[142 142]/ImagingBBox null>>setpagedevice"
+*PageSize w144h72/2.00x1.00": "<</PageSize[144 72]/ImagingBBox null>>setpagedevice"
+*PageSize w144h144/2.00x2.00": "<</PageSize[144 144]/ImagingBBox null>>setpagedevice"
+*PageSize w164h164/2.30x2.30": "<</PageSize[164 164]/ImagingBBox null>>setpagedevice"
+*PageSize w162h162/2.25x2.25": "<</PageSize[162 162]/ImagingBBox null>>setpagedevice"
+*PageSize w162h90/2.25x1.25": "<</PageSize[162 90]/ImagingBBox null>>setpagedevice"
+*PageSize w180h108/2.50x1.50": "<</PageSize[180 108]/ImagingBBox null>>setpagedevice"
+*PageSize w216h144/3.00x2.00": "<</PageSize[216 144]/ImagingBBox null>>setpagedevice"
+*PageSize w216h216/3.00x3.00": "<</PageSize[216 216]/ImagingBBox null>>setpagedevice"
+*PageSize w216h360/3.00x5.00": "<</PageSize[216 360]/ImagingBBox null>>setpagedevice"
+*PageSize w288h432/4.00x6.00": "<</PageSize[288 432]/ImagingBBox null>>setpagedevice"
+*CloseUI: *PageSize
+
+*OpenUI *PageRegion/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageRegion
+*DefaultPageRegion: w288h432
+*PageRegion w114h85/1.60x1.20": "<</PageSize[114 85]/ImagingBBox null>>setpagedevice"
+*PageRegion w142h85/1.96x1.20": "<</PageSize[142 85]/ImagingBBox null>>setpagedevice"
+*PageRegion w142h142/1.96x1.96": "<</PageSize[142 142]/ImagingBBox null>>setpagedevice"
+*PageRegion w144h72/2.00x1.00": "<</PageSize[144 72]/ImagingBBox null>>setpagedevice"
+*PageRegion w144h144/2.00x2.00": "<</PageSize[144 144]/ImagingBBox null>>setpagedevice"
+*PageRegion w164h164/2.30x2.30": "<</PageSize[164 164]/ImagingBBox null>>setpagedevice"
+*PageRegion w162h162/2.25x2.25": "<</PageSize[162 162]/ImagingBBox null>>setpagedevice"
+*PageRegion w162h90/2.25x1.25": "<</PageSize[162 90]/ImagingBBox null>>setpagedevice"
+*PageRegion w180h108/2.50x1.50": "<</PageSize[180 108]/ImagingBBox null>>setpagedevice"
+*PageRegion w216h144/3.00x2.00": "<</PageSize[216 144]/ImagingBBox null>>setpagedevice"
+*PageRegion w216h216/3.00x3.00": "<</PageSize[216 216]/ImagingBBox null>>setpagedevice"
+*PageRegion w216h360/3.00x5.00": "<</PageSize[216 360]/ImagingBBox null>>setpagedevice"
+*PageRegion w288h432/4.00x6.00": "<</PageSize[288 432]/ImagingBBox null>>setpagedevice"
+*CloseUI: *PageRegion
+
+*DefaultImageableArea: w288h432
+*ImageableArea w114h85/1.60x1.20": "0 0 114 85"
+*ImageableArea w142h85/1.96x1.20": "0 0 142 85"
+*ImageableArea w142h142/1.96x1.96": "0 0 142 142"
+*ImageableArea w144h72/2.00x1.00": "0 0 144 72"
+*ImageableArea w144h144/2.00x2.00": "0 0 144 144"
+*ImageableArea w164h164/2.30x2.30": "0 0 164 164"
+*ImageableArea w162h162/2.25x2.25": "0 0 162 162"
+*ImageableArea w162h90/2.25x1.25": "0 0 162 90"
+*ImageableArea w180h108/2.50x1.50": "0 0 180 108"
+*ImageableArea w216h144/3.00x2.00": "0 0 216 144"
+*ImageableArea w216h216/3.00x3.00": "0 0 216 216"
+*ImageableArea w216h360/3.00x5.00": "0 0 216 360"
+*ImageableArea w288h432/4.00x6.00": "0 0 288 432"
+
+*DefaultPaperDimension: w288h432
+*PaperDimension w114h85/1.60x1.20": "114 85"
+*PaperDimension w142h85/1.96x1.20": "142 85"
+*PaperDimension w142h142/1.96x1.96": "142 142"
+*PaperDimension w144h72/2.00x1.00": "144 72"
+*PaperDimension w144h144/2.00x2.00": "144 144"
+*PaperDimension w164h164/2.30x2.30": "164 164"
+*PaperDimension w162h162/2.25x2.25": "162 162"
+*PaperDimension w162h90/2.25x1.25": "162 90"
+*PaperDimension w180h108/2.50x1.50": "180 108"
+*PaperDimension w216h144/3.00x2.00": "216 144"
+*PaperDimension w216h216/3.00x3.00": "216 216"
+*PaperDimension w216h360/3.00x5.00": "216 360"
+*PaperDimension w288h432/4.00x6.00": "288 432"
+
+
+
+
+*OpenUI *Resolution/Resolution: PickOne
+*OrderDependency: 300 AnySetup *Resolution
+*DefaultResolution: 203dpi
+*Resolution 203dpi/203 dpi x 203 dpi: "<</HWResolution[203 203]/cupsBitsPerColor 8/cupsRowCount 8/cupsRowFeed 0/cupsRowStep 0/cupsColorSpace 0>>setpagedevice"
+*CloseUI: *Resolution
+
+
+
+
+*OpenGroup: PrinterSettings/Printer Settings
+
+*OpenUI *MediaType/MediaType: PickOne
+*OrderDependency: 20 AnySetup *MediaType
+*DefaultMediaType: 1
+*MediaType 1/Gap: ""
+*MediaType 0/Continuous: ""
+*MediaType 2/Black Line: ""
+*CloseUI: *MediaType
+
+*OpenUI *GapHeight/Gap Height: PickOne
+*OrderDependency: 30 AnySetup *GapHeight
+*DefaultGapHeight: 3
+*GapHeight 0/0mm: "%%"
+*GapHeight 1/1mm: "%%"
+*GapHeight 2/2mm: "%%"
+*GapHeight 3/3mm: "%%"
+*GapHeight 4/4mm: "%%"
+*GapHeight 5/5mm: "%%"
+*GapHeight 6/6mm: "%%"
+*GapHeight 7/7mm: "%%"
+*GapHeight 8/8mm: "%%"
+*GapHeight 9/9mm: "%%"
+*GapHeight 10/10mm: "%%"
+*CloseUI: *GapHeight
+
+*OpenUI *GapOffset/Gap Offset: PickOne
+*OrderDependency: 30 AnySetup *GapOffset
+*DefaultGapOffset: 0
+*GapOffset 0/0mm: "%%"
+*GapOffset 1/1mm: "%%"
+*GapOffset 2/2mm: "%%"
+*GapOffset 3/3mm: "%%"
+*GapOffset 4/4mm: "%%"
+*GapOffset 5/5mm: "%%"
+*GapOffset 6/6mm: "%%"
+*GapOffset 7/7mm: "%%"
+*GapOffset 8/8mm: "%%"
+*GapOffset 9/9mm: "%%"
+*GapOffset 10/10mm: "%%"
+*CloseUI: *GapOffset
+
+*OpenUI *PrintSpeed/Speed: PickOne
+*OrderDependency: 110 AnySetup *PrintSpeed
+*DefaultPrintSpeed: 40
+*PrintSpeed 10/1: "%%"
+*PrintSpeed 20/2: "%%"
+*PrintSpeed 30/3: "%%"
+*PrintSpeed 40/4: "%%"
+*PrintSpeed 50/5: "%%"
+*PrintSpeed 60/6: "%%"
+*PrintSpeed 70/7: "%%"
+*PrintSpeed 80/8: "%%"
+*CloseUI: *PrintSpeed
+
+*OpenUI *Darkness/Density: PickOne
+*OrderDependency: 120 AnySetup *Darkness
+*DefaultDarkness: 12
+*Darkness 1: "%%"
+*Darkness 2: "%%"
+*Darkness 3: "%%"
+*Darkness 4: "%%"
+*Darkness 5: "%%"
+*Darkness 6: "%%"
+*Darkness 7: "%%"
+*Darkness 8: "%%"
+*Darkness 9: "%%"
+*Darkness 10: "%%"
+*Darkness 11: "%%"
+*Darkness 12: "%%"
+*Darkness 13: "%%"
+*Darkness 14: "%%"
+*Darkness 15: "%%"
+*Darkness 16: "%%"
+*CloseUI: *Darkness
+
+*CloseGroup: PrinterSettings
+
+
+
+
+*OpenGroup: ImageParamters/Image Paramters
+
+*OpenUI *Horizontal/Horizontal Offset: PickOne
+*OrderDependency: 130 AnySetup *Horizontal
+*DefaultHorizontal: 0
+*Horizontal -20/-20mm: "%%"
+*Horizontal -19/-19mm: "%%"
+*Horizontal -18/-18mm: "%%"
+*Horizontal -17/-17mm: "%%"
+*Horizontal -16/-16mm: "%%"
+*Horizontal -15/-15mm: "%%"
+*Horizontal -14/-14mm: "%%"
+*Horizontal -13/-13mm: "%%"
+*Horizontal -12/-12mm: "%%"
+*Horizontal -11/-11mm: "%%"
+*Horizontal -10/-10mm: "%%"
+*Horizontal -9/-9mm: "%%"
+*Horizontal -8/-8mm: "%%"
+*Horizontal -7/-7mm: "%%"
+*Horizontal -6/-6mm: "%%"
+*Horizontal -5/-5mm: "%%"
+*Horizontal -4/-4mm: "%%"
+*Horizontal -3/-3mm: "%%"
+*Horizontal -2/-2mm: "%%"
+*Horizontal -1/-1mm: "%%"
+*Horizontal 0/0mm: "%%"
+*Horizontal 1/1mm: "%%"
+*Horizontal 2/2mm: "%%"
+*Horizontal 3/3mm: "%%"
+*Horizontal 4/4mm: "%%"
+*Horizontal 5/5mm: "%%"
+*Horizontal 6/6mm: "%%"
+*Horizontal 7/7mm: "%%"
+*Horizontal 8/8mm: "%%"
+*Horizontal 9/9mm: "%%"
+*Horizontal 10/10mm: "%%"
+*Horizontal 11/11mm: "%%"
+*Horizontal 12/12mm: "%%"
+*Horizontal 13/13mm: "%%"
+*Horizontal 14/14mm: "%%"
+*Horizontal 15/15mm: "%%"
+*Horizontal 16/16mm: "%%"
+*Horizontal 17/17mm: "%%"
+*Horizontal 18/18mm: "%%"
+*Horizontal 19/19mm: "%%"
+*Horizontal 20/20mm: "%%"
+*CloseUI: *Horizontal
+
+*OpenUI *Vertical/Vertical Offset: PickOne
+*OrderDependency: 140 AnySetup *Vertical
+*DefaultVertical: 0
+*Vertical -20/-20mm: "%%"
+*Vertical -19/-19mm: "%%"
+*Vertical -18/-18mm: "%%"
+*Vertical -17/-17mm: "%%"
+*Vertical -16/-16mm: "%%"
+*Vertical -15/-15mm: "%%"
+*Vertical -14/-14mm: "%%"
+*Vertical -13/-13mm: "%%"
+*Vertical -12/-12mm: "%%"
+*Vertical -11/-11mm: "%%"
+*Vertical -10/-10mm: "%%"
+*Vertical -9/-9mm: "%%"
+*Vertical -8/-8mm: "%%"
+*Vertical -7/-7mm: "%%"
+*Vertical -6/-6mm: "%%"
+*Vertical -5/-5mm: "%%"
+*Vertical -4/-4mm: "%%"
+*Vertical -3/-3mm: "%%"
+*Vertical -2/-2mm: "%%"
+*Vertical -1/-1mm: "%%"
+*Vertical 0/0mm: "%%"
+*Vertical 1/1mm: "%%"
+*Vertical 2/2mm: "%%"
+*Vertical 3/3mm: "%%"
+*Vertical 4/4mm: "%%"
+*Vertical 5/5mm: "%%"
+*Vertical 6/6mm: "%%"
+*Vertical 7/7mm: "%%"
+*Vertical 8/8mm: "%%"
+*Vertical 9/9mm: "%%"
+*Vertical 10/10mm: "%%"
+*Vertical 11/11mm: "%%"
+*Vertical 12/12mm: "%%"
+*Vertical 13/13mm: "%%"
+*Vertical 14/14mm: "%%"
+*Vertical 15/15mm: "%%"
+*Vertical 16/16mm: "%%"
+*Vertical 17/17mm: "%%"
+*Vertical 18/18mm: "%%"
+*Vertical 19/19mm: "%%"
+*Vertical 20/20mm: "%%"
+*CloseUI: *Vertical
+
+*OpenUI *Rotate/Rotate: PickOne
+*OrderDependency: 160 AnySetup *Rotate
+*DefaultRotate: 0
+*Rotate 0/0: "%%"
+*Rotate 2/90: "%%"
+*Rotate 1/180: "%%"
+*Rotate 3/270: "%%"
+*CloseUI: *Rotate
+
+*OpenUI *PrintMode/Image Algorithm: PickOne
+*OrderDependency: 150 AnySetup *PrintMode
+*DefaultPrintMode: 5
+*PrintMode 2/Diffusion: "%%"
+*PrintMode 3/Gathering: "%%"
+*PrintMode 4/ErrorDiffusion: "%%"
+*PrintMode 5/Default: "%%"
+*CloseUI: *PrintMode
+
+*CloseGroup: ImageParamters
+
+
+
+
+
+*zh_CN.Translation PrinterSettings/打印机设置: ""
+*zh_CN.Translation ImageParamters/图像参数: ""
+*zh_CN.Translation General/基本功能: ""
+*zh_CN.Translation PageSize/纸张大小: ""
+*zh_CN.Translation Resolution/分辨率: ""
+*zh_CN.Resolution 203dpi/8.0 每毫米点数 x 8.0 每毫米点数: ""
+*zh_CN.Collate True/是: ""
+*zh_CN.Collate False/否: ""
+*zh_CN.Translation Media/纸张设置: ""
+*zh_CN.Translation MediaMethod/方式: ""
+*zh_CN.MediaMethod Normal/使用当前打印机设置: ""
+*zh_CN.MediaMethod Direct/热敏: ""
+*zh_CN.Translation PaperType/类型: ""
+*zh_CN.PaperType LabelGaps/有间距的标签: ""
+*zh_CN.PaperType LabelMark/有标记的标签: ""
+*zh_CN.PaperType Continue/继续: ""
+*zh_CN.Translation PostAction/打印后操作: ""
+*zh_CN.PostAction None/无: ""
+*zh_CN.PostAction TearOff/撕去: ""
+*zh_CN.PostAction PeelOff/剥去: ""
+*zh_CN.PostAction Cut/裁切: ""
+*zh_CN.PostAction PartialCut/部分剪切: ""
+*zh_CN.Translation Occurrence/发生: ""
+*zh_CN.Occurrence Every/每张打印后: ""
+*zh_CN.Occurrence Copies/打印相同内容后: ""
+*zh_CN.Occurrence Job/打印完后: ""
+*zh_CN.Occurrence Specified/指定的间隔之后: ""
+*zh_CN.Translation Effects/效果: ""
+*zh_CN.Translation MirrorImage/镜像: ""
+*zh_CN.MirrorImage True/是: ""
+*zh_CN.MirrorImage False/否: ""
+*zh_CN.Translation GD41Mirror/镜像: ""
+*zh_CN.GD41Mirror 1/是: ""
+*zh_CN.GD41Mirror 0/否: ""
+*zh_CN.Translation NegativeImage/反相: ""
+*zh_CN.NegativeImage True/是: ""
+*zh_CN.NegativeImage False/否: ""
+*zh_CN.Translation GD41Negative/反相: ""
+*zh_CN.GD41Negative 1/是: ""
+*zh_CN.GD41Negative 0/否: ""
+*zh_CN.Translation PrinterOptions/打印机选项: ""
+*zh_CN.Translation PrintSpeed/打印速度: ""
+*zh_CN.Translation Darkness/打印浓度: ""
+*zh_CN.Translation Horizontal/水平偏移: ""
+*zh_CN.Translation Vertical/垂直偏移: ""
+*zh_CN.Translation GraphicsFormat/图像格式: ""
+*zh_CN.Translation DirectBuffer/指向缓冲器: ""
+*zh_CN.DirectBuffer AUTO/自动: ""
+*zh_CN.Translation StoredGraphics/存储的图像: ""
+*zh_CN.StoredGraphics AUTO/自动: ""
+*zh_CN.Translation OptionDisplayUnit/度量单位: ""
+*zh_CN.OptionDisplayUnit AUTO/自动: ""
+*zh_CN.OptionDisplayUnit MM/毫米: ""
+*zh_CN.OptionDisplayUnit Inch/英寸: ""
+*zh_CN.Translation Rotate/旋转: ""
+*zh_CN.Translation MediaType/类型: ""
+*zh_CN.MediaType 0/连续纸: ""
+*zh_CN.MediaType 1/标签纸: ""
+*zh_CN.MediaType 2/黑标纸: ""
+*zh_CN.Translation AutoDotted/横线虚化: ""
+*zh_CN.Translation PrintMode/打印模式: ""
+*zh_CN.PrintMode 0/无: ""
+*zh_CN.PrintMode 2/扩散: ""
+*zh_CN.PrintMode 3/聚焦: ""
+*zh_CN.PrintMode 4/误差扩散: ""
+*zh_CN.PrintMode 5/默认: ""
+*zh_CN.Translation Feed/打印后走纸: ""
+*zh_CN.Translation GapHeight/间隙高度: ""
+*zh_CN.Translation GapOffset/间隙偏移: ""
+*zh_CN.Translation SavePaper/节纸设置: ""
+*zh_CN.Translation SavePaperLeft/左: ""
+*zh_CN.SavePaperLeft 0/关闭: ""
+*zh_CN.SavePaperLeft 1/开启: ""
+*zh_CN.Translation SavePaperRight/右: ""
+*zh_CN.SavePaperRight 0/关闭: ""
+*zh_CN.SavePaperRight 1/开启: ""
+*zh_CN.Translation SavePaperUp/上: ""
+*zh_CN.SavePaperUp 0/关闭: ""
+*zh_CN.SavePaperUp 1/开启: ""
+*zh_CN.Translation SavePaperDown/下: ""
+*zh_CN.SavePaperDown 0/关闭: ""
+*zh_CN.SavePaperDown 1/开启: ""
+
+
+*zh_TW.Translation PrinterSettings/印表機設定: ""
+*zh_TW.Translation ImageParamters/影像參數: ""
+*zh_TW.Translation General/基本設定: ""
+*zh_TW.Translation PageSize/紙張大小: ""
+*zh_TW.Translation Resolution/解析度: ""
+*zh_TW.Resolution 203dpi/8.0 每毫米點數 x 8.0 每毫米點數: ""
+*zh_TW.Translation Media/紙張設定: ""
+*zh_TW.Translation MediaMethod/方式: ""
+*zh_TW.MediaMethod Normal/使用目前印表機設定: ""
+*zh_TW.MediaMethod Direct/直接感熱: ""
+*zh_TW.Translation PaperType/類型: ""
+*zh_TW.PaperType LabelGaps/間隔式標籤: ""
+*zh_TW.PaperType LabelMark/黑標式標籤: ""
+*zh_TW.PaperType Continue/連續的: ""
+*zh_TW.Translation PostAction/列印後動作: ""
+*zh_TW.PostAction None/無: ""
+*zh_TW.PostAction TearOff/撕開: ""
+*zh_TW.PostAction PeelOff/剝落: ""
+*zh_TW.PostAction Cut/裁切: ""
+*zh_TW.PostAction PartialCut/部分裁切: ""
+*zh_TW.Translation Occurrence/發生: ""
+*zh_TW.Occurrence Every/每張列印後: ""
+*zh_TW.Occurrence Copies/相同内容列印後: ""
+*zh_TW.Occurrence Job/列印完後: ""
+*zh_TW.Occurrence Specified/所指定的間隔之後: ""
+*zh_TW.Translation Effects/效果: ""
+*zh_TW.Translation MirrorImage/鏡映影像: ""
+*zh_TW.MirrorImage True/是: ""
+*zh_TW.MirrorImage False/否: ""
+*zh_TW.Translation GD41Mirror/鏡映影像: ""
+*zh_TW.GD41Mirror 1/是: ""
+*zh_TW.GD41Mirror 0/否: ""
+*zh_TW.Translation NegativeImage/反白: ""
+*zh_TW.NegativeImage True/是: ""
+*zh_TW.NegativeImage False/否: ""
+*zh_TW.Translation GD41Negative/反白: ""
+*zh_TW.GD41Negative 1/是: ""
+*zh_TW.GD41Negative 0/否: ""
+*zh_TW.Translation PrinterOptions/印表機選項: ""
+*zh_TW.Translation PrintSpeed/列印速度: ""
+*zh_TW.Translation Darkness/明暗度: ""
+*zh_TW.Translation Horizontal/水平偏移: ""
+*zh_TW.Translation Vertical/垂直偏移: ""
+*zh_TW.Translation GraphicsFormat/圖形格式: ""
+*zh_TW.Translation DirectBuffer/指向緩衝區: ""
+*zh_TW.DirectBuffer AUTO/自動: ""
+*zh_TW.Translation StoredGraphics/存儲的圖形: ""
+*zh_TW.StoredGraphics AUTO/自動: ""
+*zh_TW.Translation OptionDisplayUnit/度量單位: ""
+*zh_TW.OptionDisplayUnit AUTO/自動: ""
+*zh_TW.OptionDisplayUnit MM/毫米: ""
+*zh_TW.OptionDisplayUnit Inch/英寸: ""
+*zh_TW.Translation Rotate/旋轉: ""
+*zh_TW.Translation MediaType/類型: ""
+*zh_TW.MediaType 0/連續紙: ""
+*zh_TW.MediaType 1/標籤紙: ""
+*zh_TW.MediaType 2/黑標紙: ""
+*zh_TW.Translation AutoDotted/橫線虛化: ""
+*zh_TW.Translation PrintMode/列印模式: ""
+*zh_TW.PrintMode 0/無: ""
+*zh_TW.PrintMode 2/擴散: ""
+*zh_TW.PrintMode 3/聚焦: ""
+*zh_TW.PrintMode 4/誤差擴散: ""
+*zh_TW.PrintMode 5/默認: ""
+*zh_TW.Translation Feed/列印後走紙: ""
+*zh_TW.Translation GapHeight/間隙高度: ""
+*zh_TW.Translation GapOffset/間隙偏移: ""
+*zh_TW.Translation SavePaper/節紙設定: ""
+*zh_TW.Translation SavePaperLeft/左: ""
+*zh_TW.SavePaperLeft 0/關閉: ""
+*zh_TW.SavePaperLeft 1/開啟: ""
+*zh_TW.Translation SavePaperRight/右: ""
+*zh_TW.SavePaperRight 0/關閉: ""
+*zh_TW.SavePaperRight 1/開啟: ""
+*zh_TW.Translation SavePaperUp/上: ""
+*zh_TW.SavePaperUp 0/關閉: ""
+*zh_TW.SavePaperUp 1/開啟: ""
+*zh_TW.Translation SavePaperDown/下: ""
+*zh_TW.SavePaperDown 0/關閉: ""
+*zh_TW.SavePaperDown 1/開啟: ""
+
+*% Generic boilerplate PPD stuff as standard PosRTript fonts and so on
+
+*DefaultFont: Courier
+*Font AvantGarde-Book: Standard "(001.006S)" Standard ROM
+*Font AvantGarde-BookOblique: Standard "(001.006S)" Standard ROM
+*Font AvantGarde-Demi: Standard "(001.007S)" Standard ROM
+*Font AvantGarde-DemiOblique: Standard "(001.007S)" Standard ROM
+*Font Bookman-Demi: Standard "(001.004S)" Standard ROM
+*Font Bookman-DemiItalic: Standard "(001.004S)" Standard ROM
+*Font Bookman-Light: Standard "(001.004S)" Standard ROM
+*Font Bookman-LightItalic: Standard "(001.004S)" Standard ROM
+*Font Courier: Standard "(002.004S)" Standard ROM
+*Font Courier-Bold: Standard "(002.004S)" Standard ROM
+*Font Courier-BoldOblique: Standard "(002.004S)" Standard ROM
+*Font Courier-Oblique: Standard "(002.004S)" Standard ROM
+*Font Helvetica: Standard "(001.006S)" Standard ROM
+*Font Helvetica-Bold: Standard "(001.007S)" Standard ROM
+*Font Helvetica-BoldOblique: Standard "(001.007S)" Standard ROM
+*Font Helvetica-Narrow: Standard "(001.006S)" Standard ROM
+*Font Helvetica-Narrow-Bold: Standard "(001.007S)" Standard ROM
+*Font Helvetica-Narrow-BoldOblique: Standard "(001.007S)" Standard ROM
+*Font Helvetica-Narrow-Oblique: Standard "(001.006S)" Standard ROM
+*Font Helvetica-Oblique: Standard "(001.006S)" Standard ROM
+*Font NewCenturySchlbk-Bold: Standard "(001.009S)" Standard ROM
+*Font NewCenturySchlbk-BoldItalic: Standard "(001.007S)" Standard ROM
+*Font NewCenturySchlbk-Italic: Standard "(001.006S)" Standard ROM
+*Font NewCenturySchlbk-Roman: Standard "(001.007S)" Standard ROM
+*Font Palatino-Bold: Standard "(001.005S)" Standard ROM
+*Font Palatino-BoldItalic: Standard "(001.005S)" Standard ROM
+*Font Palatino-Italic: Standard "(001.005S)" Standard ROM
+*Font Palatino-Roman: Standard "(001.005S)" Standard ROM
+*Font Symbol: Special "(001.007S)" Special ROM
+*Font Times-Bold: Standard "(001.007S)" Standard ROM
+*Font Times-BoldItalic: Standard "(001.009S)" Standard ROM
+*Font Times-Italic: Standard "(001.007S)" Standard ROM
+*Font Times-Roman: Standard "(001.007S)" Standard ROM
+*Font ZapfChancery-MediumItalic: Standard "(001.007S)" Standard ROM
+*Font ZapfDingbats: Special "(001.004S)" Standard ROM
+
+*%
+*% End of PPD
+*%

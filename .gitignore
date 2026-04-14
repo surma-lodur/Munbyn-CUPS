@@ -1,0 +1,14 @@
+build/
+.vscode
+
+*.raster
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Temporary files
+*.tmp
+*.swap
